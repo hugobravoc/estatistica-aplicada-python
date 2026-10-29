@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+# Ambientes / segredos
+.venv/
+.env
+.env.*
+!.env.example
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Artefatos gerados / datasets transformados
+resultados/temporarios/
+dados/processed/*
+!dados/processed/.gitkeep
+# Notebooks
+.ipynb_checkpoints/
+# Livros protegidos por direitos autorais
+*.pdf
